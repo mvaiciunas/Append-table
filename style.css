@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #e5ae30;
+    font-family: montserrat;
+    width: 600px;
+    }
+
+th, td {    
+    font-weight: 500;
+    padding: 20px;
+    border: 2px solid #fec107;
+    }
+
+thead {
+    text-transform: uppercase;
+    background: #fec107;
+    color: black;
+    padding: 20px;
+    }
+
+tbody {
+    background: #3c2c6c;
+    color: white;
+}
+
+.vardas {
+    font-weight: 700;
+}
+
+.pavardė {
+    background: #e5ae30;
+    font-weight: 700;
+}
+
+.amžius {
+    font-weight: 700;
+}
+
+input {
+    width: 190px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 198px;
+    margin-bottom: 10px;
+}
